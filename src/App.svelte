@@ -1,4 +1,5 @@
 <script>
+  import KkumoSearchbar from "./Searchbar.svelte";
   let name = "world";
 </script>
 
@@ -23,7 +24,11 @@
     />
   </div>
 </header>
-<main />
+<main>
+  <div class="flex-container">
+    <KkumoSearchbar />
+  </div>
+</main>
 <footer>footer</footer>
 
 <style>
@@ -43,6 +48,7 @@
 
   .flex-container {
     display: flex;
+    justify-content: center;
   }
 
   .flex-item {
