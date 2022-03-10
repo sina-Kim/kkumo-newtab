@@ -6,7 +6,19 @@
 	sinaKim, svelte에서 제공한 기본 global.css 내용을 reset.css로 변경하였습니다.
 */
 
-html,
+html{
+  display: block;
+  height: 100%;
+  margin: 0;
+  padding: 0px;
+}
+body,
+input,
+button {
+    font-size: 14px;
+    font-family: Apple SD Gothic Neo, arial, sans-serif;
+    color: black;
+}
 body,
 div,
 span,
